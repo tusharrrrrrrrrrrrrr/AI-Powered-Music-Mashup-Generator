@@ -175,7 +175,7 @@ Add these images in your README:
 
 # 🖥️ Web Interface
 
-![UI Interface](UI.png)
+![UI Interface](images/UI.png)
 
 
 # 🧠 Backend Processing Logs (Summary)
@@ -199,7 +199,7 @@ The following logs demonstrate the successful end-to-end execution of the backen
 
 #Email Delivery
 
-![](email_ss.png)
+![](images/email_ss.png)
 
 ---
 ##🎓 Final Student Info Section (Add at bottom)
