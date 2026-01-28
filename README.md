@@ -1,12 +1,12 @@
-###🎵 AI-Powered Music Mashup Generator
+### 🎵 AI-Powered Music Mashup Generator
 
-##Overview
+## Overview
 A Flask-based web application that automatically generates an audio mashup from YouTube songs of a given singer.
 Users provide the singer name, number of videos, clip duration, and their email. The system downloads audio, trims clips, merges them, and sends the final mashup via email.
 
 This project demonstrates *backend system design*, *media processing*, *automation*, and *web integration*.
 ---
-##🚀 Features
+## 🚀 Features
 
 - Web interface built using Flask + Tailwind CSS
 - Downloads audio from YouTube using yt-dlp
@@ -18,7 +18,7 @@ This project demonstrates *backend system design*, *media processing*, *automati
 
 ---
 
-🧠 System Architecture
+## 🧠 System Architecture
 
 ```
 User Input (Web Form)
@@ -50,7 +50,7 @@ Email Delivery to User
 
 
 ---
-##📁 Project Structure
+## 📁 Project Structure
 ```
 mashup-project/
 │── app.py               # Web server and email system
@@ -65,33 +65,33 @@ mashup-project/
 ```
 
 --- 
-##⚙️ Setup Instructions
+## ⚙️ Setup Instructions
 
-#-1️⃣ Clone repository
+# -1️⃣ Clone repository
 ```bash
 git clone <your-repo-link>
 cd mashup-project
 ```
 
-#2️⃣ Create virtual environment
+# -2️⃣ Create virtual environment
 ```bash 
 python -m venv venv
 venv\Scripts\activate   # Windows
 ```
 
 
-#3️⃣ Install dependencies
+# -3️⃣ Install dependencies
 
 ```bash
 pip install -r requirements.txt
 ```
 
-#4️⃣ Install FFmpeg
+# -4️⃣ Install FFmpeg
 ```text
 Download ffmpeg and add it to system PATH.
 ```
 
-#5️⃣ Set Email Credentials (IMPORTANT)
+# -5️⃣ Set Email Credentials (IMPORTANT)
 
 ```text
 Use Gmail App Password (not your real password).
@@ -101,7 +101,7 @@ setx EMAIL_ADDRESS "your_email@gmail.com"
 setx EMAIL_PASSWORD "your_16_char_app_password"
 ```
 
-#6️⃣ Run Application
+# -6️⃣ Run Application
 ```bash
 python app.py
 ```
@@ -136,7 +136,7 @@ Add these images in your README:
 | Email received       | Proof of full system working  |
 ---
 
-##⚠️ Challenges Faced
+## ⚠️ Challenges Faced
 
 -Handling YouTube 403 errors
 
@@ -147,7 +147,7 @@ Add these images in your README:
 -Managing failed downloads gracefully
 
 ---
-##🔮 Future Improvements
+## 🔮 Future Improvements
 
 -Add progress bar during processing
 
@@ -156,7 +156,7 @@ Add these images in your README:
 -Support different audio formats
 -Allow song preview before merge
 ---
-##🎯 Learning Outcomes
+## 🎯 Learning Outcomes
 
 -This project demonstrates:
 
@@ -171,7 +171,7 @@ Add these images in your README:
 -Error handling in real systems
 
 --- 
-##📷 Project Demonstration
+## 📷 Project Demonstration
 
 # 🖥️ Web Interface
 
@@ -197,13 +197,12 @@ The following logs demonstrate the successful end-to-end execution of the backen
 
 ```
 
-#Email Delivery
+# 📧Email Delivery
 
 ![](images/email_ss.png)
 
 ---
-##🎓 Final Student Info Section (Add at bottom)
-#👨‍💻 Developed By
+## 👨‍💻 Developed By
 ```text
 Name: Tushar Garg
 ```
