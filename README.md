@@ -125,50 +125,48 @@ http://127.0.0.1:5000
 - Temporary files are deleted.
 
 ---
-## 📸 Screenshots to Include
-
-Add these images in your README:
-
-| **Screenshot**       | **Purpose**                  |
-|----------------------|------------------------------|
-| Web UI page          | Shows frontend design         |
-| Terminal processing  | Shows backend pipeline        |
-| Email received       | Proof of full system working  |
----
 
 ## ⚠️ Challenges Faced
 
--Handling YouTube 403 errors
+- *YouTube Rate Limiting & Traffic Issues*
+During peak times or high traffic conditions, YouTube may restrict or block automated download requests. This can result in partial downloads or failed video extraction. The system is designed to continue processing available files, but in some cases fewer clips may be merged.
 
--Configuring ffmpeg correctly
+- *API/Service Reliability*
+Since the project depends on external services (YouTube and SMTP servers), performance may vary based on service availability, network stability, and regional restrictions.
 
--Preventing Flask auto-reload crash
+- *FFmpeg Configuration*
+Proper installation and system path configuration of FFmpeg is required for audio processing. Incorrect setup may cause audio conversion failures.
 
--Managing failed downloads gracefully
+- *Long Processing Time*
+Downloading multiple songs and processing audio clips can take significant time depending on internet speed and system performance.
+
+- *Email Security Restrictions*
+Gmail may block automated logins if App Passwords are not configured properly or if security policies change.
 
 ---
 ## 🔮 Future Improvements
 
--Add progress bar during processing
+- Add progress bar during processing
 
--Deploy backend to cloud server
+ -Deploy backend to cloud server
 
--Support different audio formats
--Allow song preview before merge
+- Support different audio formats
+
+- Allow song preview before merge
 ---
 ## 🎯 Learning Outcomes
 
--This project demonstrates:
+- This project demonstrates:
 
--Backend web development
+- Backend web development
 
--Media processing automation
+- Media processing automation
 
--File handling pipelines
+- File handling pipelines
 
--Email integration
+- Email integration
 
--Error handling in real systems
+- Error handling in real systems
 
 --- 
 ## 📷 Project Demonstration
@@ -204,6 +202,6 @@ The following logs demonstrate the successful end-to-end execution of the backen
 ---
 ## 👨‍💻 Developed By
 ```text
-Name: Tushar Garg
+Tushar Garg
 ```
 ---
